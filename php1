@@ -1,0 +1,11 @@
+CREATE DATABASE cesge_students;
+
+USE cesge_students;
+
+CREATE TABLE students(
+    id INT AUTO_INCREMENT NOT NULL,
+    primer_nombre VARCHAR(10) NOT NULL,
+    segundo_nombre VARCHAR(10),
+    primer_apellido VARCHAR(10) NOT NULL,
+    segundo_apellido VARCHAR(10)
+);
