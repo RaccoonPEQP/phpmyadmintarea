@@ -7,5 +7,6 @@ CREATE TABLE students(
     primer_nombre VARCHAR(10) NOT NULL,
     segundo_nombre VARCHAR(10),
     primer_apellido VARCHAR(10) NOT NULL,
-    segundo_apellido VARCHAR(10)
+    segundo_apellido VARCHAR(10),
+    PRIMARY KEY(id)
 );

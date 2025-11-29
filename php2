@@ -3,9 +3,9 @@ CREATE DATABASE sistema_geolocalisacion;
 USE sistema_geolocalisacion;
 
 CREATE TABLE GEOLOCALISACION(
-	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	id INT NOT NULL AUTO_INCREMENT,
     calle VARCHAR(20) NOT NULL,
     carrera VARCHAR(20) NOT NULL,
-    direccion VARCHAR(20) NOT NULL
-    
+    direccion VARCHAR(20) NOT NULL,
+    PRIMARY KEY(id)
 );
